@@ -1,0 +1,312 @@
+.tutorial-button {
+    background-color: rgba(218, 165, 32, 1);
+    height: 75px;
+    width: 100px;
+    color: aqua;
+    font-size: 15px;
+    font-variant: small-caps;
+    font-style: italic;
+    cursor: pointer;
+    border: 12px;
+    border-color: crimson;
+    border-radius: 25px;
+    border-style: ridge;
+    transition: background-color 3s, box-shadow 5s;
+    box-shadow: 7px 10px 11px rgba(250, 238, 141, 1);
+  }
+
+  .tutorial-button:hover{
+    background-color: rgb(233, 16, 150);
+    opacity: 0.4;
+    box-shadow: 7px 10px 11px rgba(250, 4, 45, 0.8);
+  }
+  .tutorial-button:active{
+    background-color: rgb(152, 247, 57);
+  }
+  .search{
+    color: blue;
+    font-size: larger;
+    font-style: oblique;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .sh-button{
+      background-color: green;
+      font-size: large;
+      font-style: bold;
+      color: white;
+      cursor: pointer;
+      padding-left: 20px;
+      padding-top: 8px;
+      padding-right: 20px;
+      padding-bottom: 8px;
+      box-shadow: 3px 4px 6px rgb(54, 53, 53);
+  }
+  .sh-button:active{
+      box-shadow: none;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+   }
+   .str-button {
+      background-color: green;
+      font-size: large;
+      font-style: bold;
+      color: white;
+      cursor: pointer;
+      padding-left: 20px;
+      padding-top: 8px;
+      padding-right: 20px;
+      padding-bottom: 8px;
+      margin-left: 40px;
+      transition: padding-left 0.5s, padding-right 0.5s, padding-bottom 0.5s, padding-top 0.5s;
+   }
+   .str-button:hover{
+      padding-left: 50px;
+      padding-top: 26px;
+      padding-right: 50px;
+      padding-bottom: 26px;
+   }
+  
+  .back-button{
+    background-color: white;
+    color: black;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: large;
+    font-style: bold;
+    border-radius: 3px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .next-button{
+    background-color: white;
+    color: black;
+    margin-left: 40px;
+    font-size: large;
+    font-style: bold;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 3px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  p{
+    font-family: Roboto, Arial;
+  }
+  .course-text{
+    font-family: Verdana;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 3px;
+    
+  }
+  .coursetype-text{
+    margin-top: 0;
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+    margin-bottom: 18px;
+  }
+  .description-text{
+    width: 300px;
+    line-height: 22px;
+    margin-bottom: 18px;
+  }
+  .start-button{
+    background-color: green;
+    color: white;
+    font-family: verdana;
+    border-radius: 4px;
+    border: none;
+    padding-bottom:8px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+  }
+  .usd-span{
+    color: rgb(105, 105, 105);
+    font-size: 15px;
+  }
+  .cost-text{
+    font-family: Arial;
+    font-size: 25px;
+    margin-right: 10px;
+    margin-bottom: 7px ;
+  }
+  .percent-text{
+      font-size: 16px;
+      color: rgb(3, 114, 3);
+      text-decoration: none;
+      font-family: Arial;
+      cursor: pointer;
+      margin-top: 7px;
+      margin-bottom: 7px ;
+  }
+  .percent-text:hover {
+      text-decoration: underline;
+  }
+  .reduce-text{
+      font-size: 17px;
+      margin-top: 7px;
+      color:rgb(104, 103, 103);
+      width: 600px;
+      
+  }
+  .reduce-span{
+     color: rgb(207, 8, 8);
+  }
+  .probe{
+   object-position: center;
+   width: 300px;
+   height: 300px;
+   border-radius: 300px;
+  }
+  .email{
+    color: rgb(136, 134, 134);
+    font-size: 13px;
+    margin-bottom: 4px;
+  }
+  .privacy{
+    color: rgb(119, 117, 117);
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .privacy:hover{
+    text-decoration: underline;
+  }
+  .sign{
+    width: 365px;
+    height:25px;
+    border-color: black;
+    
+  }
+  .join{
+    background-color: rgb(63, 63, 190);
+    color:white;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right:150px;
+    padding-left:150px;
+    border: none;
+    border-radius: 30px;
+  }
+  
+  .name-box{
+   display: block;
+   margin-top: 50px;
+   margin-bottom: 7px;
+  }
+  .email-box{
+    margin-bottom: 50px;
+  }
+  .g-logo{
+    display:block;
+    margin-left: 108px;
+  }
+  .g-search{
+    color: grey;
+    padding-right: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    border-radius: 30px;
+    border-width: 0.5px;
+    margin-top: 12px;
+  }
+  .red-square{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(12, 53, 1);
+    margin-top: 70px;
+    border-radius: 50px;
+  }
+  .mus-yt{
+    background-color: rgb(51, 50, 50);
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .inyt-mus{
+   font-size: 25px;
+   color: white;
+   margin-left: 20px;
+   font-weight: bold;
+   margin-bottom: 8px;
+  }
+  .infoyt{
+   font-size: 16px;
+   color: rgb(145, 143, 143);
+   margin-left: 20px;
+   margin-top: 2px;
+   width: 440px;
+  }
+
+
+
+  .div-twit{
+    display: inline-block;
+    width: 200px;
+    box-shadow: 0 0 5px black;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 50px;
+  }
+  
+   .twitter-img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 4px;
+  }
+  .name-profile{
+    margin-left: 7px;
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(20, 20, 20);
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: block;
+  }
+  .friends-profile{
+    color: rgb(110, 110, 110);
+    font-size: 15px;
+    margin-left: 7px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .twit-button{
+     background-color: rgb(61, 61, 228);
+     margin-left: 4px;
+     margin-top: 5px;
+     margin-bottom: 6px;
+     color: white;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 12px;
+     padding-right: 12px;
+     border-radius: 3px;
+     border: none;
+  }
+  .pers-type{
+    width: 30px;
+    display: inline-block;
+    vertical-align: center;
+    margin-left: 5px;
+  }
+
+
+  .div-youtube{
+    display: grid;
+ align-items: center; 
+  }
